@@ -43,7 +43,7 @@ export function withdraw(amount) {
 export function requestLoan(amount, purpose) {
   return {
     type: "account/requestLoan",
-    payload: { amount: 1000, purpose },
+    payload: { amount, purpose },
   };
 }
 
